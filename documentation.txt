@@ -17,26 +17,29 @@
 Страница контактов - телефон, адрес, соц.сети (также будет в футере других страниц)
 
 
-├── Главная страница (/)
+├── Главная страница (/)                                        ; Приложение - homepage, view-функция - home
 │   ├── О мастере (#about) 
 │   ├── Пройденные курсы (#courses)
 │   └── Ссылка на бронирование (#booking-button)
-├── Услуги (/services)
-│   ├── Свадебный макияж (/services/wedding)
+├── Услуги (/services)                                          ; Приложение - services,  
+│   ├── Свадебный макияж (/services/wedding)                    ; view-функция - wedding_services
 │   │   ├── Информация (/services/wedding#info)
 │   │   └── Примеры работ (/services/wedding#portfolio)
-│   ├── Вечерний макияж (/services/evening)
+│   ├── Вечерний макияж (/services/evening)                     ; view-функция - evening_services
 │   │   ├── Информация (/services/evening#info)
 │   │   └── Примеры работ (/services/evening#portfolio)
-│   └── Тематический макияж (/services/thematic)
-│       ├── Информация (/services/thematic#info)
-│       └── Примеры работ (/services/thematic#portfolio)
-├── Бронирование (/booking)
+│   ├── Нюдовый (дневной) макияж (/services/nude)               ; view-функция - nude_services
+│   │   ├── Информация (/services/nude#info)
+│   │   └── Примеры работ (/services/nude#portfolio)
+│   └── Тематический макияж (/services/thematic)                ; view-функция - thematic_services
+│      ├── Информация (/services/thematic#info)
+│      └── Примеры работ (/services/thematic#portfolio)
+├── Бронирование (/booking)                                     ; Приложение - booking, view-функция - booking_form
 │   ├── Форма записи (/booking#form)
-├── Отзывы (/reviews)
-│   ├── Все отзывы (/reviews#all)
-│   └── Добавить отзыв (/reviews#add)
-└── Контакты (/contacts)
+├── Отзывы (/reviews)                                           ; Приложение - reviews, 
+│   ├── Все отзывы (/reviews#all)                               ; view-функция - all_reviews
+│   └── Добавить отзыв (/reviews#add)                           ; view-функция - add_review
+└── Контакты (/contacts)                                        ; Приложение - contacts, view-функция - contacts
     ├── Телефон (/contacts#phone)
     ├── Адрес (/contacts#address)
     └── Соцсети (/contacts#social)
