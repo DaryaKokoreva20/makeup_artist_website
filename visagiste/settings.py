@@ -31,6 +31,11 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'visagiste.apps.HomepageConfig',
+    'visagiste.apps.BookingConfig',
+    'visagiste.apps.ContactsConfig',
+    'visagiste.apps.ReviewsConfig',
+    'visagiste.apps.ServicesConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
